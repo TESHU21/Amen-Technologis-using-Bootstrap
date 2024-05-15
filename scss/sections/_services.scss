@@ -1,0 +1,57 @@
+@use'../custom' as *;
+
+.services{
+   position: relative;
+   padding-top: 0;
+   .intro-text{
+    font-family: sans-serif;
+      text-align: center;
+        padding: 0.8rem;
+        margin-top: 0;
+        @include media-breakpoint-up(lg){
+        font-size: 1rem;
+    }
+   }
+     @include media-breakpoint-up(lg){
+        padding-top: 100px;
+    }
+   &__content{
+    padding: 1rem;
+    margin-top: 0;
+     width: 300px;
+   // background-color: white;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15px;
+   // box-shadow: 0 0 5px rgba(0,0,0,0.2);
+ 
+    p{
+        text-align: center;
+        padding: 0.8rem;
+        margin-top: 0;
+        @include media-breakpoint-up(lg){
+        font-size: 1rem;
+    }
+    }
+    @include media-breakpoint-up(lg){
+        margin-top: 5rem;
+        padding-top: 100px;
+    }
+
+   }
+   .icons{
+    font-size: 2.5rem;
+    color: 5rem;
+   }
+   @include media-breakpoint-up(lg){
+    margin-top: 2.5rem;
+   }
+
+}
+.content{
+    overflow: hidden;
+    max-height: 100px;
+    transition: max-height 0.3s ease;
+}
+   
+    

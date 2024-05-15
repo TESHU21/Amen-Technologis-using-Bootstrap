@@ -1,0 +1,19 @@
+@use 'custom' as *;
+//import components
+@use 'components/animation';
+@use 'components/button';
+@use 'components/mixins';
+@use 'components/typography';
+//Import Sections
+@use 'sections/campanies';
+@use 'sections/faq';
+@use 'sections/footer';
+@use 'sections/get-started';
+@use 'sections/intro-section';
+@use 'sections/navbar';
+@use 'sections/portfolios';
+@use 'sections/services';
+@use 'sections/testimonials';
+body{
+   // margin-top: 0;
+}

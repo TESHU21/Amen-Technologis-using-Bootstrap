@@ -1,0 +1,26 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+.started{
+    border: 0.1rem solid $white;
+    border-radius: 50%;
+    padding: 8px;
+    background-color: $primary; 
+   justify-content: center;
+    text-decoration: none;
+    &:hover{
+         @include gradient;
+        
+        //background-color: gradient;
+    }
+}
+.navbar{
+.company_name  {
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  font-style: oblique;
+text-shadow: 2px 2px 4px rgba(237, 231, 231, 0.5);
+
+}
+   
+}
